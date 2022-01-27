@@ -36,24 +36,23 @@ section.reader
 aside
 {
 	width: 20.59rem;
-	height: 100%;
-	background: red;
-	float: left;
-	border-right: 3px solid $white;
-	position: fixed;
-	overflow: hidden;
-	transition: opacity 0.3s linear, visibility 0.3s linear;
-	opacity: 1;
-	visibility: visible;
-	z-index: 10;
-
-	background-image: url(../img/aside-bg.png), linear-gradient(to top, lighten($gradient-color1, 8%) , lighten($gradient-color2, 5%));
-	background-position: center center;
-	background-size: cover;
-
-	// background: $gradient-color1; 
-	// background: -webkit-linear-gradient(to top, lighten($gradient-color1, 8%) , lighten($gradient-color2, 5%)); 
-	// background: linear-gradient(to top, lighten($gradient-color1, 8%) , lighten($gradient-color2, 5%)); 
+    height: 80%;
+    top: 10%;
+    left: 5%;
+    backdrop-filter: blur(0.5rem);
+    background: #ffffff17;
+    /* float: left; */
+    border-radius: 10px;
+    border: 1px solid #ffffff1c;
+    position: fixed;
+    overflow: hidden;
+    transition: opacity 0.3s linear, visibility 0.3s linear;
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+    background: radial-gradient(farthest-corner at 10rem 25%, #2d4e8630 0%, #ffffff2b 100%);
+    background-position: center center;
+    background-size: cover;
 
 	@include breakpoint(xs) {   
         width: 100%;
@@ -101,7 +100,7 @@ aside
 	    	list-style: none;
 	    	font-family: 'montserratlight'; 
 	    	font-size: 1.23em;
-	    	color: $white;
+	    	color: white;
 	    	text-transform: uppercase;
 	    	-webkit-font-smoothing: antialiased; 
 	    	-moz-osx-font-smoothing: grayscale;
@@ -204,7 +203,8 @@ aside
 
 div#wrapper
 {
-	width: calc(100% - 20.59rem);
+	//width: calc(100% - 20.59rem);
+	width:  100%;
 	height: 100%;
 	background: $gray;
 	float: right;
@@ -226,6 +226,7 @@ div#wrapper
 
 	div.slide
 	{
+		background:  white;
 		width: 100%;
 		min-height: 100%;
 		overflow: auto;
@@ -276,7 +277,7 @@ div#wrapper
 		div.slide-content
 		{
 			width: 100%;
-			padding: 4em 6.75em 0 6.75em; 
+			padding: 6em 6.75em 0 31.75em; 
 			position: absolute;
 			z-index: 10;
 
@@ -303,7 +304,7 @@ div#wrapper
 	div#slide01
 	{
 		// 2 3 4 6
-		background: url('../img/chauvesouris.jpg');
+		background: url('../img/welcome.jpeg');
 		background-size: cover; 
 		background-position: 75% 100%;
 		z-index: 3;
@@ -311,7 +312,7 @@ div#wrapper
 
 	div#slide02
 	{
-		background: url('../img/fleur-violette.jpg'); 
+		//background: url('../img/fleur-violette.jpg'); 
 		background-size: cover;
 		background-position: 75% 100%;
 		z-index: 3;
@@ -319,7 +320,7 @@ div#wrapper
 
 	div#slide03
 	{
-		background: url('../img/couleuvre.jpg');
+		//background: url('../img/couleuvre.jpg');
 		background-size: cover;
 		background-position: 75% 100%;
 		z-index: 3;
@@ -327,7 +328,7 @@ div#wrapper
 
 	div#slide04
 	{
-		background: url('../img/cuicui.jpg');
+		//background: url('../img/cuicui.jpg');
 		background-size: cover;
 		background-position: 75% 100%;
 		z-index: 3;
@@ -335,7 +336,7 @@ div#wrapper
 
 	div#slide05
 	{
-		background: url('../img/coleoptere.jpg');
+		//background: url('../img/coleoptere.jpg');
 		background-size: cover;
 		background-position: 75% 100%;
 		z-index: 3;

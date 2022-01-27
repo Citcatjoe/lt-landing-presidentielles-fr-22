@@ -15,7 +15,7 @@ $gray: #212121;
 
 $gradient-color1: #b19c78; //bottom 
 $gradient-color2: #9e8356; //top
-$flash-color: #ecd343;
+$flash-color: #ff3b00;
 
 // $gradient-color1: #93fb7e; //green 
 // $gradient-color2: #64b3f4; //blue
@@ -171,7 +171,7 @@ h3
 
     span 
     {
-      color: $flash-color;
+      color:blue;
       //display: block;
       // width: 100%;
     }
