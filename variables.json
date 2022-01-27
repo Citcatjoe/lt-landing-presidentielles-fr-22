@@ -1,0 +1,15 @@
+{
+	"title": "Menace sur les trésors de la biodiversité",
+	"description": "A la rencontre des espèces menacées",
+	"authors": "Aurélie Coulon, Fabien Goubet, Pascaline Minet, Nathalie Jollien",
+	"imgSocial": "social.jpg", 
+
+	"navBarStyle": "black",
+	"navBarOffset": "0",
+	"navBarLocked": false,
+
+	"partner": {
+		"logo": "img/empty.png",
+		"link": "http://www.letemps.ch"
+	}
+}
